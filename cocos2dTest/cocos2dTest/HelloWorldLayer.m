@@ -37,6 +37,8 @@
 		
 		// create and initialize a Label
 		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello Ben Lee!" fontName:@"Marker Felt" fontSize:64];
+        NSLog(@"Here2");
+        NSLog(@"This is a test");
 
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
